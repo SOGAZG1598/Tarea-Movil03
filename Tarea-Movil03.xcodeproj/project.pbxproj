@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21D15C4328BADDED00EBE875 /* jesusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D15C4228BADDED00EBE875 /* jesusViewController.swift */; };
 		21FDFF5028B6708900986436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FDFF4F28B6708900986436 /* AppDelegate.swift */; };
 		21FDFF5228B6708900986436 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FDFF5128B6708900986436 /* SceneDelegate.swift */; };
 		21FDFF5428B6708900986436 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FDFF5328B6708900986436 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21D15C4228BADDED00EBE875 /* jesusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jesusViewController.swift; sourceTree = "<group>"; };
 		21FDFF4C28B6708900986436 /* Tarea-Movil03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarea-Movil03.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FDFF4F28B6708900986436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21FDFF5128B6708900986436 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				21FDFF5128B6708900986436 /* SceneDelegate.swift */,
 				21FDFF5328B6708900986436 /* ViewController.swift */,
 				21FDFF5528B6708900986436 /* Main.storyboard */,
+				21D15C4228BADDED00EBE875 /* jesusViewController.swift */,
 				21FDFF5828B6708A00986436 /* Assets.xcassets */,
 				21FDFF5A28B6708A00986436 /* LaunchScreen.storyboard */,
 				21FDFF5D28B6708A00986436 /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21FDFF5428B6708900986436 /* ViewController.swift in Sources */,
+				21D15C4328BADDED00EBE875 /* jesusViewController.swift in Sources */,
 				21FDFF5028B6708900986436 /* AppDelegate.swift in Sources */,
 				21FDFF5228B6708900986436 /* SceneDelegate.swift in Sources */,
 			);
