@@ -21,6 +21,7 @@ class editarViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     @IBAction func editarBack(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil) //para eliminar cache
     }
     
 

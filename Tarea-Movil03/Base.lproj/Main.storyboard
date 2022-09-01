@@ -24,49 +24,147 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSk-hi-6CJ">
-                                <rect key="frame" x="48" y="471" width="127" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Jesus">
-                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="ZI8-pg-aaJ" kind="presentation" identifier="" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="dkh-X7-6cQ"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;The closer you look, the less you see&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPe-Dv-0UR">
-                                <rect key="frame" x="31" y="141" width="330" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="&quot;The closer you look, the less you see&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPe-Dv-0UR">
+                                <rect key="frame" x="31" y="131" width="330" height="54"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo Los Ilusionistas" translatesAutoresizingMaskIntoConstraints="NO" id="WUn-00-28A">
-                                <rect key="frame" x="67" y="203" width="259" height="171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKl-2Q-jBE">
-                                <rect key="frame" x="236" y="468" width="109" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Carlos">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                </buttonConfiguration>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Jack of spades" translatesAutoresizingMaskIntoConstraints="NO" id="k1R-jQ-4dl">
-                                <rect key="frame" x="225" y="382" width="130" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Jack of clubs" translatesAutoresizingMaskIntoConstraints="NO" id="BSB-QV-eiC">
-                                <rect key="frame" x="55" y="391" width="100" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNt-4q-8T9">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="62w-j0-YVH">
+                                <rect key="frame" x="75.000000000000014" y="193" width="243.33333333333337" height="152"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo Los Ilusionistas" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WUn-00-28A">
+                                        <rect key="frame" x="0.0" y="0.0" width="241" height="152"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="mhC-oC-oqm">
+                                <rect key="frame" x="43" y="375" width="307.33333333333331" height="375"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="fpI-Ex-6g8">
+                                        <rect key="frame" x="0.0" y="0.0" width="307.33333333333331" height="124"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rTq-jG-Wfg">
+                                                <rect key="frame" x="0.0" y="0.0" width="127" height="124"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSk-hi-6CJ">
+                                                        <rect key="frame" x="0.0" y="80" width="127" height="37"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="gray" title="Jesus">
+                                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <segue destination="ZI8-pg-aaJ" kind="presentation" identifier="" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="dkh-X7-6cQ"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Jack of clubs" translatesAutoresizingMaskIntoConstraints="NO" id="BSB-QV-eiC">
+                                                        <rect key="frame" x="7" y="0.0" width="100" height="80"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hdK-bi-v8J">
+                                                <rect key="frame" x="177" y="0.0" width="130.33333333333337" height="124"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKl-2Q-jBE">
+                                                        <rect key="frame" x="11" y="86" width="109" height="38"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="gray" title="Carlos">
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Jack of spades" translatesAutoresizingMaskIntoConstraints="NO" id="k1R-jQ-4dl">
+                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="98"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="hdK-bi-v8J" firstAttribute="leading" secondItem="fpI-Ex-6g8" secondAttribute="leading" constant="177" id="dk8-ZF-qdB"/>
+                                        </constraints>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rSJ-BB-acc">
+                                        <rect key="frame" x="104.66666666666666" y="130" width="98" height="120"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKv-4L-n5m">
+                                                <rect key="frame" x="9" y="82" width="81" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Tadeo">
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ace of Clubs" translatesAutoresizingMaskIntoConstraints="NO" id="rjV-EJ-VYc">
+                                                <rect key="frame" x="0.0" y="0.0" width="98" height="83"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="92" translatesAutoresizingMaskIntoConstraints="NO" id="qe6-Bg-bya">
+                                        <rect key="frame" x="0.0" y="256" width="307.33333333333331" height="119"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eq4-E9-EQs">
+                                                <rect key="frame" x="0.0" y="0.0" width="106" height="119"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsL-3s-85V">
+                                                        <rect key="frame" x="0.0" y="82" width="106" height="37"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="gray" title="Fernando">
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="King of Spades" translatesAutoresizingMaskIntoConstraints="NO" id="6m6-1O-BlV">
+                                                        <rect key="frame" x="12" y="0.0" width="82" height="83"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99t-Tp-H9F">
+                                                <rect key="frame" x="198" y="0.0" width="109.33333333333331" height="119"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kr-JA-Ukp">
+                                                        <rect key="frame" x="0.0" y="82" width="109" height="37"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="gray" title="Sebastian">
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <segue destination="Ar7-Vf-i2M" kind="presentation" modalPresentationStyle="fullScreen" id="hHt-AM-H85"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="King of Spades" translatesAutoresizingMaskIntoConstraints="NO" id="S3Y-dc-5Fl">
+                                                        <rect key="frame" x="13" y="0.0" width="82" height="83"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="99t-Tp-H9F" firstAttribute="leading" secondItem="qe6-Bg-bya" secondAttribute="leading" constant="198" id="gvs-zD-f1A"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="rSJ-BB-acc" firstAttribute="top" secondItem="mhC-oC-oqm" secondAttribute="top" constant="130" id="Dtu-yi-AFl"/>
+                                    <constraint firstItem="qe6-Bg-bya" firstAttribute="top" secondItem="mhC-oC-oqm" secondAttribute="top" constant="256" id="FpZ-TZ-PLh"/>
+                                    <constraint firstItem="fpI-Ex-6g8" firstAttribute="leading" secondItem="qe6-Bg-bya" secondAttribute="leading" id="PVv-f6-40m"/>
+                                    <constraint firstItem="rSJ-BB-acc" firstAttribute="leading" secondItem="mhC-oC-oqm" secondAttribute="leading" constant="104.66666666666669" id="RHw-Ya-G1P"/>
+                                    <constraint firstItem="fpI-Ex-6g8" firstAttribute="leading" secondItem="mhC-oC-oqm" secondAttribute="leading" id="i4B-ov-7gs"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNt-4q-8T9">
                                 <rect key="frame" x="104" y="758" width="184" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="modificar frase">
@@ -76,51 +174,23 @@
                                     <segue destination="iWo-Ms-NgN" kind="presentation" identifier="editar" id="pFo-7P-pVS"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="King of Spades" translatesAutoresizingMaskIntoConstraints="NO" id="6m6-1O-BlV">
-                                <rect key="frame" x="60" y="612" width="82" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsL-3s-85V">
-                                <rect key="frame" x="48" y="694" width="106" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Fernando">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKv-4L-n5m">
-                                <rect key="frame" x="160" y="588" width="81" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Tadeo">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                </buttonConfiguration>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ace of Clubs" translatesAutoresizingMaskIntoConstraints="NO" id="rjV-EJ-VYc">
-                                <rect key="frame" x="151" y="506" width="98" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="King of Spades" translatesAutoresizingMaskIntoConstraints="NO" id="S3Y-dc-5Fl">
-                                <rect key="frame" x="249" y="612" width="82" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kr-JA-Ukp">
-                                <rect key="frame" x="236" y="694" width="109" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Sebastian">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Ar7-Vf-i2M" kind="presentation" modalPresentationStyle="fullScreen" id="hHt-AM-H85"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="mhC-oC-oqm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="375" id="AsS-6x-gh2"/>
+                            <constraint firstItem="62w-j0-YVH" firstAttribute="centerX" secondItem="KPe-Dv-0UR" secondAttribute="centerX" id="Emr-4M-8t7"/>
+                            <constraint firstItem="XNt-4q-8T9" firstAttribute="top" secondItem="mhC-oC-oqm" secondAttribute="bottom" constant="8" symbolic="YES" id="KIu-te-Gsp"/>
+                            <constraint firstItem="62w-j0-YVH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="193" id="R0k-DU-Ifp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mhC-oC-oqm" secondAttribute="trailing" constant="39.666666666666686" id="XhN-by-P3a"/>
+                            <constraint firstAttribute="bottom" secondItem="mhC-oC-oqm" secondAttribute="bottom" constant="94" id="e8v-WC-7zK"/>
+                            <constraint firstItem="mhC-oC-oqm" firstAttribute="centerX" secondItem="KPe-Dv-0UR" secondAttribute="centerX" id="evs-fV-Gxe"/>
+                            <constraint firstItem="mhC-oC-oqm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="mjb-wd-QVe"/>
+                            <constraint firstItem="62w-j0-YVH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="n5V-4N-2Hf"/>
+                            <constraint firstItem="mhC-oC-oqm" firstAttribute="top" secondItem="62w-j0-YVH" secondAttribute="bottom" constant="30" id="pey-wR-LhZ"/>
+                            <constraint firstItem="62w-j0-YVH" firstAttribute="top" secondItem="KPe-Dv-0UR" secondAttribute="bottom" constant="8" symbolic="YES" id="scx-B7-x24"/>
+                            <constraint firstItem="mhC-oC-oqm" firstAttribute="centerX" secondItem="XNt-4q-8T9" secondAttribute="centerX" id="xVA-T9-iej"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="frase" destination="KPe-Dv-0UR" id="LSX-4B-NDj"/>
@@ -146,13 +216,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TJG-hB-Kuo">
-                                <rect key="frame" x="62" y="190" width="251" height="197"/>
+                                <rect key="frame" x="30" y="190" width="330" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqO-Dd-fRf">
-                                <rect key="frame" x="92" y="479" width="82" height="31"/>
+                                <rect key="frame" x="97" y="480" width="180" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Regresar"/>
@@ -161,7 +231,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgc-Zu-t3f">
-                                <rect key="frame" x="204" y="479" width="77" height="31"/>
+                                <rect key="frame" x="100" y="534" width="177" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Guardar"/>
@@ -179,7 +249,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cw5-gF-bhr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-210" y="840"/>
+            <point key="canvasLocation" x="-210.76923076923077" y="839.57345971563973"/>
         </scene>
         <!--Sebas View Controller-->
         <scene sceneID="7Xw-w4-IVH">
