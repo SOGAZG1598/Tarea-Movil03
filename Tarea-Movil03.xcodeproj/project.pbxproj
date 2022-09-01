@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2135CB6128C10AD80031B144 /* sebasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2135CB6028C10AD80031B144 /* sebasViewController.swift */; };
+		2135CB6328C10C240031B144 /* editarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2135CB6228C10C240031B144 /* editarViewController.swift */; };
 		21D15C4328BADDED00EBE875 /* jesusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D15C4228BADDED00EBE875 /* jesusViewController.swift */; };
 		21FDFF5028B6708900986436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FDFF4F28B6708900986436 /* AppDelegate.swift */; };
 		21FDFF5228B6708900986436 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FDFF5128B6708900986436 /* SceneDelegate.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2135CB6028C10AD80031B144 /* sebasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sebasViewController.swift; sourceTree = "<group>"; };
+		2135CB6228C10C240031B144 /* editarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editarViewController.swift; sourceTree = "<group>"; };
 		21D15C4228BADDED00EBE875 /* jesusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jesusViewController.swift; sourceTree = "<group>"; };
 		21FDFF4C28B6708900986436 /* Tarea-Movil03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarea-Movil03.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FDFF4F28B6708900986436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 		21FDFF4E28B6708900986436 /* Tarea-Movil03 */ = {
 			isa = PBXGroup;
 			children = (
+				2135CB6228C10C240031B144 /* editarViewController.swift */,
 				21FDFF4F28B6708900986436 /* AppDelegate.swift */,
 				21FDFF5128B6708900986436 /* SceneDelegate.swift */,
 				21FDFF5328B6708900986436 /* ViewController.swift */,
@@ -109,6 +114,7 @@
 				21FDFF5828B6708A00986436 /* Assets.xcassets */,
 				21FDFF5A28B6708A00986436 /* LaunchScreen.storyboard */,
 				21FDFF5D28B6708A00986436 /* Info.plist */,
+				2135CB6028C10AD80031B144 /* sebasViewController.swift */,
 			);
 			path = "Tarea-Movil03";
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				21FDFF5428B6708900986436 /* ViewController.swift in Sources */,
+				2135CB6328C10C240031B144 /* editarViewController.swift in Sources */,
+				2135CB6128C10AD80031B144 /* sebasViewController.swift in Sources */,
 				21D15C4328BADDED00EBE875 /* jesusViewController.swift in Sources */,
 				21FDFF5028B6708900986436 /* AppDelegate.swift in Sources */,
 				21FDFF5228B6708900986436 /* SceneDelegate.swift in Sources */,
