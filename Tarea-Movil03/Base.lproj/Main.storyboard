@@ -103,6 +103,9 @@
                                                 <buttonConfiguration key="configuration" style="gray" title="Tadeo">
                                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Dr4-Fn-zQF" kind="show" id="BUK-Ef-ZDZ"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ace of Clubs" translatesAutoresizingMaskIntoConstraints="NO" id="rjV-EJ-VYc">
                                                 <rect key="frame" x="0.0" y="0.0" width="98" height="83"/>
@@ -438,6 +441,70 @@
             </objects>
             <point key="canvasLocation" x="575.38461538461536" y="-26.303317535545023"/>
         </scene>
+        <!--Tadeo View Controller-->
+        <scene sceneID="cFD-JM-dDA">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Dr4-Fn-zQF" customClass="TadeoViewController" customModule="Tarea_Movil03" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mlw-bS-BcU">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foto tadeo" translatesAutoresizingMaskIntoConstraints="NO" id="LLp-pJ-Iza">
+                                <rect key="frame" x="46" y="113" width="299" height="318"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Carlos Tadeo Perez Capistran" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVG-tJ-t7P">
+                                <rect key="frame" x="19" y="439" width="355" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" name="Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estudiante de 22 años en el TEC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDd-aw-CqT">
+                                <rect key="frame" x="49" y="501" width="295" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diseñador de la interfaz grafica y Base de Datos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SiB-YC-IAR">
+                                <rect key="frame" x="14" y="574" width="365" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¿Sabias que Carlos practica natacion?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vh-Hr-z7T">
+                                <rect key="frame" x="24" y="663" width="344" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" name="Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnx-wN-Yr7">
+                                <rect key="frame" x="250" y="75" width="94" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemGray2Color"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="3632489321543238858" title=" atras">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                    <color key="baseBackgroundColor" systemColor="systemGray2Color"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="carlosBack:" destination="Dr4-Fn-zQF" eventType="touchUpInside" id="7me-fZ-Uyh"/>
+                                    <action selector="jesusBack:" destination="ZI8-pg-aaJ" eventType="touchUpInside" id="Xvb-4J-BEs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kXr-vi-MW1"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="H0p-3g-b82"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pKH-u9-biL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1344.6153846153845" y="-207.58293838862559"/>
+        </scene>
     </scenes>
     <resources>
         <image name="3632489321543238858" width="18" height="18"/>
@@ -448,6 +515,7 @@
         <image name="Logo Los Ilusionistas" width="684" height="598"/>
         <image name="foto bajita" width="750" height="1125"/>
         <image name="foto charly" width="500" height="500"/>
+        <image name="foto tadeo" width="960" height="960"/>
         <image name="fotosebas" width="496" height="618"/>
         <namedColor name="Color">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

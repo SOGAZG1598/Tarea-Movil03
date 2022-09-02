@@ -20,6 +20,7 @@
 		21FDFF7128B6708A00986436 /* Tarea_Movil03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FDFF7028B6708A00986436 /* Tarea_Movil03UITests.swift */; };
 		21FDFF7328B6708A00986436 /* Tarea_Movil03UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FDFF7228B6708A00986436 /* Tarea_Movil03UITestsLaunchTests.swift */; };
 		25CC279C28C237FC009D8073 /* CarlosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CC279B28C237FC009D8073 /* CarlosViewController.swift */; };
+		FBF5103928C24B37002C2EEE /* TadeoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF5103828C24B37002C2EEE /* TadeoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		21FDFF7028B6708A00986436 /* Tarea_Movil03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea_Movil03UITests.swift; sourceTree = "<group>"; };
 		21FDFF7228B6708A00986436 /* Tarea_Movil03UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea_Movil03UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		25CC279B28C237FC009D8073 /* CarlosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlosViewController.swift; sourceTree = "<group>"; };
+		FBF5103828C24B37002C2EEE /* TadeoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TadeoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				21FDFF5128B6708900986436 /* SceneDelegate.swift */,
 				21FDFF5328B6708900986436 /* ViewController.swift */,
 				21FDFF5528B6708900986436 /* Main.storyboard */,
+				FBF5103828C24B37002C2EEE /* TadeoViewController.swift */,
 				25CC279B28C237FC009D8073 /* CarlosViewController.swift */,
 				21D15C4228BADDED00EBE875 /* jesusViewController.swift */,
 				21FDFF5828B6708A00986436 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF5103928C24B37002C2EEE /* TadeoViewController.swift in Sources */,
 				21FDFF5428B6708900986436 /* ViewController.swift in Sources */,
 				2135CB6328C10C240031B144 /* editarViewController.swift in Sources */,
 				2135CB6128C10AD80031B144 /* sebasViewController.swift in Sources */,
